@@ -1,0 +1,33 @@
+<div class="wrapper">
+  <h1>Sign Up</h1>
+  <form action="">
+    <input type="text" placeholder="First Name">
+    <input type="text" placeholder="Last Name">
+    <select name="" id="">
+      <option value="">Select Gender</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="Transgender">Transgender</option>
+    </select>
+    <hr color="white">
+    <div class="dateOfBirth">
+      <p>Date of birth</p>
+      <select name ="days">
+        <option value ="days"> Days</option>
+        <option *ngFor="let day of monthDays" value ="{{day}}"> {{day}} </option>
+      </select>
+      <select>
+        <option value="">Month</option>
+        <option *ngFor="let month of months" value="{{month}}">{{month}}</option>
+      </select>
+      <select>
+        <option value="">Year</option>
+        <option *ngFor="let year of years" value="{{year}}">{{year}}</option>
+      </select>
+    </div>
+    <input type="text" placeholder="Email">
+    <input type="Password" placeholder="Password">
+    <input type="submit" value="SIGNUP">
+  </form>
+</div>
+<div id="overlay-area"></div>

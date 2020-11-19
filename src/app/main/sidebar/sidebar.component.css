@@ -1,0 +1,25 @@
+.sidebar {
+  position: relative;
+  height: 100vh;
+  background-color: #F0F2F5;
+  float: left;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.sidebar-row {
+  padding-top: 10px;
+  width: 100%;
+  height: 40px;
+  margin: 1px;
+  background-color: #F0F2F5;
+  padding-left: 30px;
+  transition: 1s;
+}
+
+.sidebar-row:hover {
+  background-color: #ced0d3;
+}
